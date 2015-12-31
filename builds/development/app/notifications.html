@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>DASHGUM - Bootstrap Admin Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+
+    <link href="assets/css/table-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class="logo"><b>FINDER</b></a>
+            <!--logo end-->
+           <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    
+                    <!-- alert notification end-->
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="img/avatar1_small.jpg">
+                            </span>
+                            <span class="username">Jenifer Smith</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            
+                           <div class="panel-body">
+                             
+                           
+							 <a  href="profile.html" button type="button" class="btn btn-primary btn-block">Profile</button></a>
+							  <a  href="messages.html" button type="button" class="btn btn-primary btn-block">Inbox</button></a>
+							   <a  href="notifications.html" button type="button" class="btn btn-warning btn-block"  >Notification</button></a>
+							   <a  href="signin.html" button type="button" class="btn btn-danger btn-block">Sign out</button></a>
+							  
+                              
+                          </div>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              	  <p class="centered"><a href="profile.html"><img src="assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">User</h5>
+              	  	
+                  <li class="mt">
+                      <a class="active" href="index.html">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-desktop"></i>
+                          <span>View listings</span>
+                      </a>
+                      <ul class="sub">
+					  
+					  
+                          <li><a  href="categories.html">Categories</a></li>
+                          <li><a  href="mylisting.html">My listings</a></li>
+						  <li><a  href="listings.html">All listings</a></li>
+                          
+                      </ul>
+                  </li>
+
+                  
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-book"></i>
+                          <span>Reviews and Rating</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="reviews.html">Reviews</a></li>
+                          
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-tasks"></i>
+                          <span>Payment</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="payment.html">Payment Details</a></li>
+                      </ul>
+                  </li>
+				  
+				  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-cogs"></i>
+                          <span>Settings</span>
+                      </a>
+                      <ul class="sub">
+                         <li><a  href="settings.html">Manage settings</a></li>
+                      </ul>
+                  </li>
+                  
+
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+	 
+                  
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+          	
+		  <!-- START ALERTS AND CALLOUTS -->
+                    <h2 class="page-header">Alerts and Callouts</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box box-danger">
+                                <div class="box-header">
+                                    <i class="fa fa-warning"></i>
+                                    <h3 class="box-title">Alerts</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body">
+                                    <div class="alert alert-danger alert-dismissable">
+                                        <i class="fa fa-ban"></i>
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <b>Alert!</b> Danger alert preview. This alert is dismissable. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                                    </div>
+                                    <div class="alert alert-info alert-dismissable">
+                                        <i class="fa fa-info"></i>
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <b>Alert!</b> Info alert preview. This alert is dismissable.
+                                    </div>
+                                    <div class="alert alert-warning alert-dismissable">
+                                        <i class="fa fa-warning"></i>
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <b>Alert!</b> Warning alert preview. This alert is dismissable.
+                                    </div>
+                                    <div class="alert alert-success alert-dismissable">
+                                        <i class="fa fa-check"></i>
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <b>Alert!</b> Success alert preview. This alert is dismissable.
+                                    </div>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                        </div><!-- /.col -->
+
+                        <div class="col-md-6">
+                            <div class="box box-info">
+                                <div class="box-header">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <h3 class="box-title">Callouts</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body">
+                                    <div class="callout callout-danger">
+                                        <h4>I am a danger callout!</h4>
+                                        <p>There is a problem that we need to fix. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                    </div>
+                                    <div class="callout callout-info">
+                                        <h4>I am an info callout!</h4>
+                                        <p>Follow the steps to continue to payment.</p>
+                                    </div>
+                                    <div class="callout callout-warning">
+                                        <h4>I am a warning callout!</h4>
+                                        <p>This is a yellow callout.</p>
+                                    </div>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                        </div><!-- /.col -->
+                    </div> <!-- /.row -->
+                    <!-- END ALERTS AND CALLOUTS -->	
+		  	
+
+		</section><! --/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2014 - Alvarez.is
+              <a href="responsive_table.html#" class="go-top">
+                  <i class="fa fa-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+  
+  <!-- jQuery 2.0.2 -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- AdminLTE App -->
+        <script src="assets/js/AdminLTE/app.js" type="text/javascript"></script>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+
+
+    <!--common script for all pages-->
+    <script src="assets/js/common-scripts.js"></script>
+
+    <!--script for this page-->
+	 
+    
+
+  </body>
+</html>
